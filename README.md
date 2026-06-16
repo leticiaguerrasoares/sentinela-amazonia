@@ -12,7 +12,7 @@
 
 ## 👩‍🎓 Integrante
 
-- Letícia Angelim Guerra — RM567501
+- Letícia Guerra — RM567501
 
 ## 👩‍🏫 Professores
 
@@ -72,17 +72,17 @@ Diferente de um modelo supervisionado, o DBSCAN **não precisa de dados rotulado
 SUB-GS-Amazonia/
 ├── assets/                  # imagens (logo da FIAP, diagramas)
 ├── config/
-│   ├── map_key.example.txt  # modelo para a chave da API
-│   └── map_key.txt          # sua chave NASA FIRMS (não vai para o Git)
+│   └── map_key.example.txt  # modelo para a chave da API
 ├── data/
 │   └── focos_amazonia.csv   # dados baixados do satélite
 ├── document/
-│   └── other/               # documentos de apoio
+│   ├── RELATORIO.md
+│   └── Relatorio_Sentinela_Amazonia.docx
 ├── scripts/
 │   └── download_dados.py    # baixa os focos da API do NASA FIRMS
 ├── src/
-│   └── app.py               # dashboard Streamlit (aplicação principal)
-├── requirements.txt         # dependências Python
+│   └── app.py               # dashboard Streamlit 
+├── requirements.txt         
 └── README.md
 ```
 
