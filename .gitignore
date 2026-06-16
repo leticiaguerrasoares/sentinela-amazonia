@@ -1,0 +1,13 @@
+# Ambiente virtual Python
+.venv/
+__pycache__/
+*.pyc
+
+# Chave de API (NUNCA subir no GitHub)
+config/map_key.txt
+
+# Cache do Streamlit
+.streamlit/
+
+# Sistema
+.DS_Store

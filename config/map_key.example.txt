@@ -1,0 +1,8 @@
+COLE_AQUI_SUA_MAP_KEY_DO_NASA_FIRMS
+
+# Como obter (gratuito e instantaneo):
+# 1. Acesse: https://firms.modaps.eosdis.nasa.gov/api/map_key/
+# 2. Informe seu e-mail e confirme.
+# 3. Copie a chave recebida.
+# 4. Crie um arquivo chamado  map_key.txt  nesta mesma pasta (config/)
+#    e cole SOMENTE a chave dentro dele (sem estes comentarios).

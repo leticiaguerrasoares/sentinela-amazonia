@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 230" font-family="Arial, Helvetica, sans-serif">
+  <text x="16" y="24" font-size="18" font-weight="bold" fill="#1a1a1a">Arquitetura da solução — Sentinela Amazônia</text>
+
+  <!-- definicoes de seta -->
+  <defs>
+    <marker id="seta" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#888"/>
+    </marker>
+  </defs>
+
+  <!-- BOX 1 -->
+  <rect x="16" y="44" width="168" height="130" rx="10" fill="#ffffff" stroke="#d0d0d0"/>
+  <circle cx="40" cy="70" r="14" fill="#2563eb"/>
+  <text x="40" y="75" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">1</text>
+  <text x="62" y="74" font-size="14" font-weight="bold" fill="#1a1a1a">Satélites VIIRS</text>
+  <text x="30" y="104" font-size="11" fill="#555">Detecção de focos de</text>
+  <text x="30" y="120" font-size="11" fill="#555">calor a partir do espaço</text>
+  <text x="30" y="136" font-size="11" fill="#555">(Suomi-NPP, NOAA-20/21)</text>
+
+  <!-- BOX 2 -->
+  <rect x="208" y="44" width="168" height="130" rx="10" fill="#ffffff" stroke="#d0d0d0"/>
+  <circle cx="232" cy="70" r="14" fill="#0891b2"/>
+  <text x="232" y="75" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">2</text>
+  <text x="254" y="74" font-size="14" font-weight="bold" fill="#1a1a1a">API NASA FIRMS</text>
+  <text x="222" y="104" font-size="11" fill="#555">Dados abertos de</text>
+  <text x="222" y="120" font-size="11" fill="#555">queimadas, atualizados</text>
+  <text x="222" y="136" font-size="11" fill="#555">diariamente</text>
+
+  <!-- BOX 3 -->
+  <rect x="400" y="44" width="168" height="130" rx="10" fill="#ffffff" stroke="#d0d0d0"/>
+  <circle cx="424" cy="70" r="14" fill="#16a34a"/>
+  <text x="424" y="75" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">3</text>
+  <text x="446" y="74" font-size="14" font-weight="bold" fill="#1a1a1a">Coleta (Python)</text>
+  <text x="414" y="104" font-size="11" fill="#555">download_dados.py:</text>
+  <text x="414" y="120" font-size="11" fill="#555">baixa e limpa os</text>
+  <text x="414" y="136" font-size="11" fill="#555">dados (Requests)</text>
+
+  <!-- BOX 4 -->
+  <rect x="592" y="44" width="168" height="130" rx="10" fill="#ffffff" stroke="#d0d0d0"/>
+  <circle cx="616" cy="70" r="14" fill="#ca8a04"/>
+  <text x="616" y="75" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">4</text>
+  <text x="638" y="74" font-size="14" font-weight="bold" fill="#1a1a1a">Base de dados</text>
+  <text x="606" y="104" font-size="11" fill="#555">focos_amazonia.csv:</text>
+  <text x="606" y="120" font-size="11" fill="#555">base estruturada</text>
+  <text x="606" y="136" font-size="11" fill="#555">(Pandas)</text>
+
+  <!-- BOX 5 -->
+  <rect x="784" y="44" width="168" height="130" rx="10" fill="#ffffff" stroke="#d0d0d0"/>
+  <circle cx="808" cy="70" r="14" fill="#ea580c"/>
+  <text x="808" y="75" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">5</text>
+  <text x="830" y="74" font-size="14" font-weight="bold" fill="#1a1a1a">Dashboard + IA</text>
+  <text x="794" y="104" font-size="11" fill="#555">Streamlit + DBSCAN:</text>
+  <text x="794" y="120" font-size="11" fill="#555">mapa, indicadores</text>
+  <text x="794" y="136" font-size="11" fill="#555">e clusterização</text>
+
+  <!-- BOX 6 -->
+  <rect x="976" y="44" width="168" height="130" rx="10" fill="#fff5f5" stroke="#dc2626"/>
+  <circle cx="1000" cy="70" r="14" fill="#dc2626"/>
+  <text x="1000" y="75" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">6</text>
+  <text x="1022" y="74" font-size="14" font-weight="bold" fill="#1a1a1a">Priorização</text>
+  <text x="986" y="104" font-size="11" fill="#555">Regiões críticas para</text>
+  <text x="986" y="120" font-size="11" fill="#555">priorizar o combate</text>
+  <text x="986" y="136" font-size="11" fill="#555">ao fogo</text>
+
+  <!-- setas -->
+  <line x1="184" y1="109" x2="206" y2="109" stroke="#888" stroke-width="2" marker-end="url(#seta)"/>
+  <line x1="376" y1="109" x2="398" y2="109" stroke="#888" stroke-width="2" marker-end="url(#seta)"/>
+  <line x1="568" y1="109" x2="590" y2="109" stroke="#888" stroke-width="2" marker-end="url(#seta)"/>
+  <line x1="760" y1="109" x2="782" y2="109" stroke="#888" stroke-width="2" marker-end="url(#seta)"/>
+  <line x1="952" y1="109" x2="974" y2="109" stroke="#888" stroke-width="2" marker-end="url(#seta)"/>
+
+  <text x="16" y="208" font-size="11" fill="#999">Fluxo de dados: do satélite no espaço até a decisão de combate ao fogo na Terra.</text>
+</svg>
